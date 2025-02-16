@@ -1,5 +1,5 @@
 
-import { Sparkles, Zap, Heart, Robot, Mic } from "lucide-react";
+import { Sparkles, Zap, Heart, Bot, Mic } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 const Dashboard = () => {
@@ -38,7 +38,7 @@ const Dashboard = () => {
 
           <Card className="p-6 hover:shadow-lg transition-shadow animate-slide-up delay-300">
             <div className="flex items-center gap-4 mb-4">
-              <Robot className="w-8 h-8 text-secondary" />
+              <Bot className="w-8 h-8 text-secondary" />
               <h2 className="text-xl font-semibold">Multi-Agent System</h2>
             </div>
             <p className="text-muted-foreground">Automated marketing optimization and insights.</p>
